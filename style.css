@@ -1,0 +1,56 @@
+@font-face {
+  font-family:'think';
+  src:url('think.ttf') format('truetype');
+}
+@font-face {
+  font-family:'think2';
+  src:url('think2.ttf') format('truetype');
+}
+@font-face {
+  font-family:'think3';
+  src:url('think3.ttf') format('truetype');
+}
+body{
+  margin:50px;
+  background-image:url('back_travel.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+nav{font-family:'think2';
+    list-style:square;
+    font-size:40px;
+  }
+section{font-family:'think3'; margin:16px;
+        font-size:40px;
+  }
+h1{
+  font-family:'think';
+  text-align:center;
+  font-size:70px;
+  color:orange;
+}
+#grid1{
+  display:grid;
+  grid-template-rows:1fr ;
+  border-top:5px solid black;
+  height:1000px;
+}
+.bottom-border{
+  padding-bottom:20px;
+  opacity:0.3;
+}
+#grid2{
+  display:grid;
+  grid-template-columns:1fr 4fr;
+}
+#grid2 a{
+  text-decoration:none;
+  color:hsl(12,70%,50%);
+}
+.right-border{
+  border-right:5px black solid;
+}
+#Lin {
+  margin-top:40px;
+  margin-left:26px;
+}
